@@ -1,6 +1,5 @@
 import React from "react";
 import Tree from "../assets/images/icon-carbon-neutral.svg";
-import Confirmorder from "./Confirmorder";
 
 function AddToCart({ Additem, onDelete }) {
   // Calculate the total order amount
@@ -62,7 +61,7 @@ function AddToCart({ Additem, onDelete }) {
         >
           Confirm Order
         </button>
-        <Confirmorder />
+     
       </div>
     </>
   );
